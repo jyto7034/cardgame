@@ -1,0 +1,9 @@
+#pragma once
+
+enum class RENDER_PRIORITY {
+	PRIORITY_HIGH,
+	PRIORITY_MID,
+	PRIORITY_LOW,
+	PRIORITY_NULL
+};
+
