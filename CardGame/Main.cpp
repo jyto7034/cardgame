@@ -81,8 +81,8 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT iMsg, WPARAM wParam, LPARAM lParam)
 		{
 		case VK_SPACE:
 		{
-			Card* card = new Card(CardData(1, 'd', 6, 7), Vector(15, 15), RENDER_PRIORITY::PRIORITY_HIGH);
-			Vector::Forward(&card->position, Vector(100, 15), 5);
+			Card* card = new Card(CardData(1, '¡Ú', 6, 7), Vector(15, 15), RENDER_PRIORITY::PRIORITY_HIGH);
+			Vector::Forward(&card->position, Vector(100, 15), 2);
 		}
 		default:
 			break;

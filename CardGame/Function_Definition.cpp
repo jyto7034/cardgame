@@ -49,12 +49,5 @@ void UpdateFPS(HDC& hdc)
 		frameCount = 0;
 		timeElapsed = 0.0f;
 	}
-	else
-	{
-		//흐른 시간이 1초가 안되면 생략함  
-		//Sleep() 해도되고 안해도 되구~ 
-	}
-
-
 	lastTime = curTime;
 }

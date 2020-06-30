@@ -17,7 +17,7 @@ public:
 	}
 	void Call() {
 		if (_Handlers.size() != 0) {
-			std::cout << _Handlers.size() << std::endl;
+			//std::cout << _Handlers.size() << std::endl;
 			typename Handlers::iterator it = _Handlers.begin();
 			while (it != _Handlers.end()) {
 				((it->first)->*(it->second))();
@@ -32,15 +32,7 @@ public:
 	HWND& m_hWnd;
 	HBITMAP hBitmap;
 
-	Game(HWND& _hWnd) :m_hWnd(_hWnd), hBitmap(NULL) 
-	{
-		std::cout << "Construction." << std::endl;
-	}
-
-	~Game() 
-	{
-		std::cout << "Destruction." << std::endl;
-	}
+	Game(HWND& _hWnd) :m_hWnd(_hWnd), hBitmap(NULL) {}
 
 	void Update(HDC& _hdc);
 	void Render();
@@ -49,7 +41,7 @@ public:
 
 
 struct CardData {
-	int id, szCardX, szCardY;
+	float id, szCardX, szCardY;
 	char icon;
 	CardData(int _id, char _icon, int szx, int szy) : id(_id), icon(_icon), szCardX(szx), szCardY(szy) {}
 	CardData() : id(-1), icon(NULL), szCardX(-1), szCardY(-1) {}
