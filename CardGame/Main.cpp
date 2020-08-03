@@ -2,6 +2,8 @@
 #include "GameSystem.h"
 #include "GeneralFunctions.h"
 #include "Externs.h"
+//#define CATCH_CONFIG_MAIN
+//#include "catch.hpp"
 
 HINSTANCE g_hInst;
 HWND g_hWnd = NULL;
@@ -9,7 +11,6 @@ PAINTSTRUCT ps;
 ObjectTable g_objectTable;
 EventHandler<Vector> eventHandler;
 static Game* game;
-
 
 
 void SwapBitmap(HDC hdc, int x, int y, HBITMAP& hBit)
@@ -56,6 +57,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT iMsg, WPARAM wParam, LPARAM lParam)
 	HDC hdc = NULL, hMemDC;
 	static HANDLE hTimer;
 	RECT crt;
+	int yPos, xPos;
 
 	switch (iMsg)
 	{
@@ -81,8 +83,9 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT iMsg, WPARAM wParam, LPARAM lParam)
 		{
 		case VK_SPACE:
 		{
-			Card* card = new Card(CardData(1, '¡Ú', 6, 7), Vector(15, 15), RENDER_PRIORITY::PRIORITY_HIGH);
-			Vector::Forward(&card->position, Vector(100, 15), 2);
+			Card* card = new Card(CardData('A', "¡ß", CARD_COLOR::RED, 6, 10), Vector(500, 130), RENDER_PRIORITY::PRIORITY_HIGH);
+			//Vector::Forward(&card->position, Vector(100, 15), 2);
+			Vector::Lerp(&card->position, Vector(900, 130), 0.05f);
 		}
 		default:
 			break;
@@ -101,6 +104,22 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT iMsg, WPARAM wParam, LPARAM lParam)
 		if(hdc != NULL)
 			ReleaseDC(hWnd, hdc);
 		PostQuitMessage(0);
+		break;
+	}
+
+	case WM_LBUTTONDOWN:
+	{
+		xPos = LOWORD(lParam);
+		yPos = HIWORD(lParam);
+		//std::cout << "Click : " << xPos << " , " << yPos << std::endl;
+		POINT p;
+		p.x = xPos;
+		p.y = yPos;
+		auto obj = Did_User_Click_The_Card(p, g_objectTable);
+		if (obj)
+			std::cout << (*obj)->ObjectID << std::endl;
+		else
+			std::cout << "Warring : Wrong Click" << std::endl;
 		break;
 	}
 

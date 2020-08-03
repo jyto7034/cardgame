@@ -1,32 +1,67 @@
 ﻿  Class_Definition.cpp
-C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Vector.h(10,28): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Vector.h(10,35): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Vector.h(15,93): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Vector.h(15,70): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Vector.h(16,93): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Vector.h(16,70): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\BlasterDinray\source\repos\CardGame\CardGame\GameSystem.h(46,54): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\BlasterDinray\source\repos\CardGame\CardGame\GameSystem.h(46,81): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\BlasterDinray\source\repos\CardGame\CardGame\GameSystem.h(46,95): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Class_Definition.cpp(9,15): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Class_Definition.cpp(75,68): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Class_Definition.cpp(75,48): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Class_Definition.cpp(76,68): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Class_Definition.cpp(76,48): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Class_Definition.cpp(77,37): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Class_Definition.cpp(77,31): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Class_Definition.cpp(77,25): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Class_Definition.cpp(77,19): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Class_Definition.cpp(80,74): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Class_Definition.cpp(80,50): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Class_Definition.cpp(81,74): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Class_Definition.cpp(81,50): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Class_Definition.cpp(89,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Class_Definition.cpp(89,17): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Class_Definition.cpp(90,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Class_Definition.cpp(90,17): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Class_Definition.cpp(142,20): warning C4244: '인수': 'ULONGLONG'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Class_Definition.cpp(143,32): warning C4244: '=': 'ULONGLONG'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Class_Definition.cpp(115,9): warning C4101: 'hBrush' :참조되지 않은 지역 변수입니다.
-C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Class_Definition.cpp(115,17): warning C4101: 'hOldBrush' :참조되지 않은 지역 변수입니다.
+C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Vector.h(15,13): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Vector.h(17,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Vector.h(17,23): warning C4244: '=': '_Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Vector.h(18,17): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Vector.h(18,17): warning C4244: 'return': '_Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\BlasterDinray\source\repos\CardGame\CardGame\GameSystem.h(74,146): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Class_Definition.cpp(149,3): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Class_Definition.cpp(155,3): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Class_Definition.cpp(230,20): warning C4244: '인수': 'ULONGLONG'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Class_Definition.cpp(231,32): warning C4244: '=': 'ULONGLONG'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Class_Definition.cpp(203,9): warning C4101: 'hBrush' :참조되지 않은 지역 변수입니다.
+C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Class_Definition.cpp(203,17): warning C4101: 'hOldBrush' :참조되지 않은 지역 변수입니다.
+  Function_Definition.cpp
+C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Vector.h(15,13): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Vector.h(17,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Vector.h(17,23): warning C4244: '=': '_Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Vector.h(18,17): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Vector.h(18,17): warning C4244: 'return': '_Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\BlasterDinray\source\repos\CardGame\CardGame\GameSystem.h(74,146): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Function_Definition.cpp(58,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Function_Definition.cpp(59,12): warning C4244: '=': 'int'에서 '_Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Function_Definition.cpp(106,36): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Function_Definition.cpp(106,27): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Function_Definition.cpp(107,36): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Function_Definition.cpp(107,27): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Main.cpp
+C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Vector.h(15,13): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Vector.h(17,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Vector.h(17,23): warning C4244: '=': '_Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Vector.h(18,17): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Vector.h(18,17): warning C4244: 'return': '_Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\BlasterDinray\source\repos\CardGame\CardGame\GameSystem.h(74,146): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Main.cpp(71,3): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Main.cpp(57,18): warning C4101: 'hMemDC' :참조되지 않은 지역 변수입니다.
+C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Main.cpp(59,7): warning C4101: 'crt' :참조되지 않은 지역 변수입니다.
+  코드를 생성하고 있습니다...
+C:\Users\BlasterDinray\source\repos\CardGame\CardGame\Function_Definition.cpp(170): warning C4715: 'Did_User_Click_The_Card': 모든 제어 경로에서 값을 반환하지는 않습니다.
   CardGame.vcxproj -> C:\Users\BlasterDinray\source\repos\CardGame\Debug\CardGame.exe

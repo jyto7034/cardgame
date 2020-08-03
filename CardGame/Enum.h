@@ -7,3 +7,15 @@ enum class RENDER_PRIORITY {
 	PRIORITY_NULL
 };
 
+enum class CARD_COLOR {
+	COLOR_NULL,
+	BLACK,
+	RED
+};
+
+enum class OPPOSITE_TYPE {
+	OPPOSITE_BOTH,
+	OPPOSITE_X,
+	OPPOSITE_Y,
+	NO_OPPOSITE
+};
